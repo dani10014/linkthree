@@ -1,3 +1,4 @@
+@charset "UTF-8";
 header .cabecalho {
   color: #fff;
   display: flex;
@@ -132,15 +133,30 @@ header .logo img {
 
 body main {
   z-index: 20;
-  height: auto;
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.25rem;
 }
 @media (min-width: 750px) {
   body main {
-    height: 100vh;
+    min-height: 100vh; /* evita cortes em conteúdos longos */
+    padding: 2rem;
+  }
+}
+@media (min-width: 1200px) {
+  body main {
+    max-width: 1400px;
+    padding: 3rem;
   }
 }
 body main footer {
-  font-size: 0.7rem;
+  font-size: clamp(0.65rem, 1vw, 0.9rem);
 }
 body {
   background: #000000;
