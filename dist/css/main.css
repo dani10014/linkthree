@@ -158,6 +158,9 @@ body main {
 body main footer {
   font-size: clamp(0.65rem, 1vw, 0.9rem);
 }
+body main h1 {
+  margin-top: -1.5rem;
+}
 body {
   background: #000000;
   background: linear-gradient(180deg, rgb(0, 0, 0) 27%, rgb(3, 0, 22) 60%, rgb(20, 0, 130) 88%);
