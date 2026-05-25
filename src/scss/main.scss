@@ -6,7 +6,11 @@
 body{
     main{
         z-index: 20;
-        height: 90vh;
+        min-height: 100vh;
+    
+        @media(min-width:750px){
+            height: 100vh;
+        }
         footer{
             font-size: 0.7rem;
         }
