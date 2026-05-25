@@ -103,9 +103,6 @@ header .logo img {
   background-position: center;
   object-fit: scale-down;
   filter: brightness(0.4);
-  border-bottom-right-radius: 50px;
-  border-bottom-left-radius: 50px;
-  border-bottom: 1px solid #fff;
 }
 @media (min-width: 750px) {
   .hero-background {
@@ -126,9 +123,6 @@ header .logo img {
   left: 0;
   height: 100%;
   width: 100%;
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
-  border-bottom: 1px solid #fff;
 }
 
 body main {
