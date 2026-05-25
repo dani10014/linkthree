@@ -1,0 +1,1 @@
+function trocaDeImagens(){let e=document.querySelector(".hero-background");e.style.backgroundImage="url(../../src/imagens/imagen-programacao-1.png)",setTimeout(function(){e.style.filter="opacity(0)"},1e3)}export{trocaDeImagens};

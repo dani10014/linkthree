@@ -1,0 +1,14 @@
+@use "./fontes";
+
+header{
+    .cabecalho{
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        h1{
+            @include fontes.fontePrincipal;
+            font-size:fontes.$tamanhoFonteTitulo;
+            border-bottom: 1px solid #fff;
+        }
+    }
+}

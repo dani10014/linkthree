@@ -1,0 +1,12 @@
+.backdrop-fade-out{
+        display: block;
+        z-index: 5;
+        border-radius: 10px;
+        filter: opacity(0);
+        background-color: #000000;
+        position: absolute;            transition: all 0.3s ease-in-out;
+        top: 0;
+        left: 0;
+        height:100% ;
+        width: 100%;
+    }

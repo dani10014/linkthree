@@ -1,0 +1,12 @@
+.hero-background{
+    background-color: black;
+    width: 100%;
+    display: block;
+    z-index: -1;
+    height: 30%;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+    background-position: center;
+    object-fit: scale-down;
+    filter: brightness(0.4);
+}

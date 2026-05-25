@@ -1,0 +1,32 @@
+@use "./variaveis";
+@use "./fontes";
+
+.foto-pessoa{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    margin-bottom: variaveis.$espacoPadrao;
+    margin-top: variaveis.$espacoPadrao;
+    img{
+        width: 40%;
+        height: 160px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: variaveis.$espacoPadrao;
+        border: 1px solid #fff;
+        box-shadow: 0 5px 5px black
+    }
+    h1{
+        @include fontes.fontePrincipal;
+        font-size:fontes.$tamanhoFonteTitulo;
+        margin-bottom: variaveis.$espacoPadrao;
+    }
+    span{
+        color: red;
+    }
+    h3{
+        @include fontes.fontePrincipal;
+        font-size:fontes.$tamanhoFonteTitulo;
+    }
+}

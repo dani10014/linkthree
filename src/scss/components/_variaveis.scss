@@ -1,0 +1,7 @@
+$espacoPadrao:2rem;
+
+@mixin hover{
+    background-color: rgba(0, 0, 0, 0.521);
+    color: #fff;
+    transform: scale(0.9);
+}

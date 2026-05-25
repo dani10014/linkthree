@@ -1,0 +1,12 @@
+@use "./components/header";
+@use "./components/foto-dev";
+@use "./components/botoes-links";
+@use "./components/hero-background";
+@use "./components/backdrop-glass";
+body{
+    main{
+        z-index: 20;
+    }
+    background: #000000;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 27%, rgba(3, 0, 22, 1) 60%, rgba(20, 0, 130, 1) 88%);
+}
