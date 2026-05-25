@@ -28,6 +28,11 @@ header .cabecalho h1 {
   border: 1px solid #fff;
   box-shadow: 0 5px 5px black;
 }
+@media (min-width: 750px) {
+  .foto-pessoa img {
+    width: 15%;
+  }
+}
 .foto-pessoa h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 200;
@@ -95,6 +100,9 @@ header .cabecalho h1 {
 
 body main {
   z-index: 20;
+}
+body main footer {
+  font-size: 0.7rem;
 }
 body {
   background: #000000;

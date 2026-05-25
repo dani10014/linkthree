@@ -15,8 +15,12 @@
         object-fit: cover;
         margin-bottom: variaveis.$espacoPadrao;
         border: 1px solid #fff;
-        box-shadow: 0 5px 5px black
-    }
+        box-shadow: 0 5px 5px black;
+            @media (min-width:750px ){
+                width: 15%;
+            }
+
+        }
     h1{
         @include fontes.fontePrincipal;
         font-size:fontes.$tamanhoFonteTitulo;
