@@ -3,7 +3,7 @@
     width: 100%;
     display: block;
     z-index: -1;
-    height: 30%;
+    height: 45%;
     position: absolute;
     transition: all 0.3s ease-in-out;
     background-position: center;
@@ -14,5 +14,6 @@
     border-bottom:1px solid #fff ;
     @media(min-width:750px){
         object-fit: cover;
+        height: 45%;
     }
 }

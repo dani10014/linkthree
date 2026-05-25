@@ -96,7 +96,7 @@ header .logo img {
   width: 100%;
   display: block;
   z-index: -1;
-  height: 30%;
+  height: 45%;
   position: absolute;
   transition: all 0.3s ease-in-out;
   background-position: center;
@@ -109,6 +109,7 @@ header .logo img {
 @media (min-width: 750px) {
   .hero-background {
     object-fit: cover;
+    height: 45%;
   }
 }
 
@@ -131,7 +132,7 @@ header .logo img {
 
 body main {
   z-index: 20;
-  height: 100vh;
+  height: 90vh;
 }
 body main footer {
   font-size: 0.7rem;
