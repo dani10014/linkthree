@@ -30,7 +30,7 @@ header .cabecalho img {
   margin-top: 2rem;
 }
 .foto-pessoa img {
-  width: 40%;
+  width: 50%;
   height: 160px;
   border-radius: 50%;
   object-fit: cover;
