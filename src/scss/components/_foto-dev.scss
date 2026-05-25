@@ -24,7 +24,7 @@
     h1{
         @include fontes.fontePrincipal;
         font-size:fontes.$tamanhoFonteTitulo;
-        margin-bottom: variaveis.$espacoPadrao;
+        margin-bottom: variaveis.$espacoPadraoLg;
     }
     span{
         color: red;
@@ -32,5 +32,6 @@
     h3{
         @include fontes.fontePrincipal;
         font-size:fontes.$tamanhoFonteTitulo;
+        margin-top: variaveis.$espacoPadrao;
     }
 }
